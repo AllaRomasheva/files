@@ -1,0 +1,9 @@
+---
+title: Files
+---
+
+{% for file in site.static_files %}
+    {% if file.path %}
+        <div><a href="{{ file.path | absolute_url }}">{{ file.name }}</a></div>
+    {% endif %}
+{% endfor %}

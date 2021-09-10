@@ -1,0 +1,66 @@
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-redirect-from
+
+exclude:
+  - .idea
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+
+timezone: Europe/Kiev
+markdown: kramdown
+title: 'Files'
+
+markdown_ext: markdown,md,liquid
+
+url:  https://romasheva.cv
+baseurl: ''
+
+email: alla@romasheva.com
+
+analytics: G-C6HYPQHN9F
+
+author:
+  name: Alla Romasheva
+  twitter: AllaRomasheva
+
+twitter:
+  username: AllaRomasheva
+  card: summary_large_image
+
+facebook:
+  publisher: 100024493295482
+  chat: 100930458520274
+
+
+social:
+  name: Alla Romasheva (Алла Ромашева)
+
+contacts:
+  twitter: https://twitter.com/AllaRomasheva
+  instagram: https://www.instagram.com/romasheva.design/
+  linkedin: https://www.linkedin.com/in/romasheva/
+  telegram: https://t.me/romasheva
+  skype: skype:live:37e58384221057fa?chat
+  messenger: https://m.me/romasheva.design
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      lang: 'en'
+      layout: 'default'
+      alternate:
+        en: '/en/'
+        ru: '/ru/'
+        uk: '/uk/'
+      image:
+        path: '/assets/images/cover.jpg'
+        width: '1000'
+        height: '600'
